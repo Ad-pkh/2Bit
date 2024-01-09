@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DFD9E2;
+}
+h1{
+    margin: 30px;
+}
+.anxietyText{
+    margin: 30px;
+    width: 50%;
+    font-size: large;
+}
+li{
+    color: #7751D1;
+}
+.anxietyFirstImage{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 450px;
+    width: 550px;
+    transition: 2s;
+}
+.anxietyFirstImage:hover{
+    transform: scale(1.1);
+}
+.anxietySecondImage{
+    position: absolute;
+    margin: 30px;
+    height: 450px;
+    width: 450px;
+    transition: 2s;
+}
+.anxietySecondImage:hover{
+    transform: scale(1.1);
+}
+.anxietyMainText{
+    position: absolute;
+    right: 20px;
+    height: 900px;
+    width: 55%;
+}
+
+

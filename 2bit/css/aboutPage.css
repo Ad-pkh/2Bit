@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DFD9E2;
+}
+
+.navContainer {
+    display: flex;
+    gap: 30px;
+    background-color: #af91f5;
+}
+
+.Section {
+    margin: 10px;
+}
+.Section:hover h2{
+    color: bisque;
+}
+.Section:hover ul{
+    display: block ;
+    position: fixed;
+    z-index: 2;
+}
+
+ul {
+    display: none;
+}
+#mentalHealthList,
+#relationshipList,
+#sexualHealthList,
+#sexEducationList{
+    background-color: white;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    color: black;
+}
+
+h2 {
+    position: relative;
+    left: 100px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.loginButton{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    margin-top: 20px;
+    position: absolute;
+    right: 240px;
+    border-radius: 100px;
+    width: 180px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+}
+.loginButton:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.3s;
+}
+.signUp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    margin-top: 20px;
+    position: absolute;
+    right: 110px;
+    border-radius: 100px;
+    padding: 3px;
+    width: 100px;
+    color: white;
+    background-color: Red;
+}
+.signUp:hover{
+    color: red;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+.rectangleImage{
+    height: 406px;
+    width: 1480px;
+    position: relative;
+    top: 8px;
+    left: -5px;
+
+}
+.firstImage{
+
+    height: 406px;
+    width: 745px;
+   position: absolute;
+   top: 60px;
+   left: 750px;
+}
+.firstContent{
+    margin: 30px;
+    position: absolute;
+    top: 100px;
+}
+h1{
+    color: #7751D1;
+}
+.secondContent{
+    margin: 30px;
+}
+.circleImage{
+    position: absolute;
+    right: 200px;
+}
+.thirdContent{
+    margin: 30px;
+}
+.mentalHealthHeading{
+    position: absolute;
+    right: 660px;
+}
+.thirdPara{
+    position: absolute;
+    right: 250px;
+    top: 1110px;
+}
+.fourthContent{
+    margin: 30px;
+}
+.brainWithNewspaper{
+    height: 300px;
+    position: absolute;
+    top: 1400px;
+    right: 100px;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    color: beige;
+}
+.firstParaM{
+    position: absolute;
+    top: 40px;
+    margin: 30px;
+    font-size: larger;
+}
+.M-capital{
+    font-size: 100px;
+}
+.firstParaMChange{
+    position: absolute;
+    top: 400px;
+    margin: 30px;
+    font-size: larger;
+    
+}
