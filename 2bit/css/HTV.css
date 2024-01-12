@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  nav {
+    background-color: #2980b9;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .HIVheading {
+    color: #7751d1;
+  }
+
+  .hivPara{
+    line-height: 1.6;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #3498db;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .hiv1{
+    position: absolute;
+    margin: 10px;
+    width: 20%;
+    top: 20px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  .hiv1:hover{
+    transform: scale(1.1);
+  }
+  .hiv2{
+    position: absolute;
+    margin: 10px;
+    right: 10px;
+    top: 150px;
+    width: 20%;
+  }
+  .hiv3{
+    position: absolute;
+    margin: 10px;
+    height:300px;
+    top: 450px;
+    border-radius: 10px;
+    width: 20%;
+  }
+  .hiv4{
+    position: absolute;
+    margin: 10px;
+    height: 300px;
+    width: 20%;
+    right: 10px;
+    top: 700px;
+  }
+  .hiv5{
+    position: absolute;
+    margin: 10px;
+    height:300px;
+    top: 1050px;
+    border-radius: 10px;
+    width: 20%;
+  }

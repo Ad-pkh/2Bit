@@ -10,7 +10,7 @@ h1{
 }
 .anxietyText{
     margin: 30px;
-    width: 50%;
+    width: 60%;
     font-size: large;
 }
 li{
@@ -18,7 +18,7 @@ li{
 }
 .anxietyFirstImage{
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 20px;
     height: 450px;
     width: 550px;
@@ -29,9 +29,11 @@ li{
 }
 .anxietySecondImage{
     position: absolute;
+    top: 450px;
     margin: 30px;
     height: 450px;
     width: 450px;
+    border-radius: 10px;
     transition: 2s;
 }
 .anxietySecondImage:hover{
@@ -41,7 +43,20 @@ li{
     position: absolute;
     right: 20px;
     height: 900px;
-    width: 55%;
+    width: 60%;
+}
+.anxietyImage3{
+    position: absolute;
+    margin: 20px;
+    width: 500px;
+    height: 450px;
+    left: 10px;
+    top: 950px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.anxietyImage3:hover{
+    transform: scale(1.1)
 }
 
 

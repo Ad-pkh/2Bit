@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.examStress{
+    height: 500px;
+    width: 500px;
+    margin: 40px;
+}
+.examStressHeader{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    width: 60%;
+}
+h1{
+    color: #7751D1;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  .examStressContent1{
+    background-color: #F0ADAD;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 10px;
+    border-radius: 10px;
+  }
+  .imageContent1{
+    width: 400px;
+    height: 350px;
+    transition: 1s;
+  }
+  .imageContent1:hover{
+    transform: scale(1.1);
+  }
+  .imageContent2{
+    width: 400px;
+    height: 400px;
+    transition: 1s;
+  }
+  .imageContent2:hover{
+    transform: scale(1.1);
+  }
+  .examStressContent2{
+    position: absolute;
+    background-color:#B4DADF;
+    left: 500px;
+    width: 400px;
+    height: 400px;
+
+  }
+  .examStressContent3{
+    position: absolute;
+    background-color: #D9D9D9;
+    height: 400px;
+    width: 400px;
+    right: 75px;
+    transition: 1s;
+  }
+  .imageContent3{
+    width: 400px;
+    height: 400px;
+    transition: 1s;
+  }
+  .imageContent3:hover{
+    transform: scale(1.1);
+  }
+
+  .imageContent4{
+    position: absolute;
+    top: 1150px;
+    left: 10px;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+  }
+  .lastContentExam{
+    height: 500px;
+    width: 100%;
+    background-color: #F9ECEC;    
+  }
+  .imageContent5{
+    height: 500px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #F9ECEC;
+    right: 200px;
+    top: 1150px;
+    transition: 1s;
+  }
+  .imageContent5:hover{
+    transform: scale(1.1);
+  }
+  
