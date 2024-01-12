@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat App</title>
+  <style>
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f3fd;
+    }
+
+    #chat-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    #chat-messages {
+      padding: 10px;
+      height: 300px;
+      overflow-y: scroll;
+    }
+
+    #user-input {
+      display: flex;
+      padding: 10px;
+      background-color: #eee;
+    }
+
+    #message-input {
+      flex-grow: 1;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    #send-button {
+      margin-left: 10px;
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    h1{
+      color: #7751D1;
+      text-align: center;
+    }
+    #chat-message{
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chat With Our Consultant</h1>
+<div id="chat-container">
+  <div id="chat-messages"></div>
+  <div id="user-input">
+    <input type="text" id="username-input" placeholder="Your Name">
+    <input type="text" id="message-input" placeholder="Type your message...">
+    <button id="send-button">Send</button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const chatMessages = document.getElementById("chat-messages");
+    const usernameInput = document.getElementById("username-input");
+    const messageInput = document.getElementById("message-input");
+    const sendButton = document.getElementById("send-button");
+
+    const socket = io();
+
+    sendButton.addEventListener("click", function () {
+      const username = usernameInput.value.trim();
+      const messageText = messageInput.value.trim();
+
+      if (username !== "" && messageText !== "") {
+        socket.emit('join', username); // Send the 'join' event with the username
+
+        appendMessage(username, messageText); // Use the entered username
+        socket.emit('chat-message', { sender: username, message: messageText });
+
+        messageInput.value = "";
+      }
+    });
+
+    socket.on('user-list', (users) => {
+      // Update the user list in the UI
+      console.log('Online users:', users);
+    });
+
+    socket.on('chat-history', (history) => {
+      history.forEach(message => appendMessage(message.sender, message.message));
+    });
+
+    socket.on('chat-message', (data) => {
+      const { sender, message } = data;
+      appendMessage(sender, message);
+    });
+
+    function appendMessage(sender, message) {
+      const messageElement = document.createElement("div");
+      messageElement.innerHTML = `<strong>${sender}:</strong> ${message}`;
+      chatMessages.appendChild(messageElement);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+  });
+</script>
+
+</body>
+</html>
+
+

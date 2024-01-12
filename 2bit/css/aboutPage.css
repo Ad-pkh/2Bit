@@ -9,7 +9,7 @@ body{
 .navContainer {
     display: flex;
     gap: 30px;
-    background-color: #af91f5;
+    /* background-color: #af91f5; */
 }
 
 .Section {
