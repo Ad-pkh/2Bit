@@ -46,6 +46,9 @@ h2 {
     margin-bottom: 5px;
     cursor: pointer;
 }
+a{
+  color: white;
+}
 .Btn {
     position: relative;
     right: -400px;

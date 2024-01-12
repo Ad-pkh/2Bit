@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstImageAdolescents{
+    height: 600px;
+    width: 100%;
+}
+h2{
+    color: #7751D1;
+    
+}
+main{    
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;      
+}
+.frontContent1{
+    margin: 10px;
+    position: absolute;
+    left: 10px;
+    width: 300px;
+    height: 300px;
+    background-color:#F6F3FD;
+    font-size: large;
+    transition: 1s;
+}
+.frontContent1:hover{
+    transform: scale(1.05);
+}
+.frontContent2{
+    margin: 10px;
+    position: absolute;
+    right: 600px;
+    width: 300px;
+    height: 300px;
+    background-color:#F6F3FD;
+    font-size: large;
+    transition: 1s;
+}
+.frontContent2:hover{
+    transform: scale(1.05);
+}
+.frontContent3{
+    margin: 10px;
+    position: absolute;
+    right: 40px;
+    width: 300px;
+    height: 300px;
+    background-color:#F6F3FD;
+    font-size: large;
+    transition: 1s;
+}
+.frontContent3:hover{
+    transform: scale(1.05);
+}
+.treeImage1{
+    height: 400px;
+    width: 20%;
+    position: absolute;
+    top: 1000px;
+    right: 120px;
+    transition-duration: 1s;
+}
+.treeImage1:hover{
+    transform: scale(1.1);
+}
+.frontContent4{
+    position: relative;
+    top: 370px;
+    right: 250px;
+}
+.frontContent5{
+    margin: 20px;
+    position: relative;
+    top: 388px;
+    width: 259px;
+}
+.ideaImage{
+    margin: 20px;
+    height: 40px;
+}
+.missionClass{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    color: #7751D1;  
+}
+.frontContent6{
+    position: relative;
+    top: 153px;
+    width: 259px;
+    padding: 30px;
+}
+.whatSetsUsApart{
+    position: absolute;
+    left: 60px;
+    color: #7751D1; 
+}
+.frontContent7{
+    position: relative;
+    top: -110px;
+    width: 259px;
+    left: 500px;
+    padding: 40px;
+}
+.OurTeam{
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    color: #7751D1; 
+}
+
