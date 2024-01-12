@@ -1,0 +1,25 @@
+.paragraph{
+    padding: auto;
+   border-right: 20%;
+    width: 60%;
+}
+img{
+    width: 450px; /* Set the width of the image */
+    border: 2px solid #333; /* Add a border to the image */
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 3px 3px 5px #888888; /* Add a box shadow to the image */
+    position:absolute;
+    top: 500px;
+    left: 700px;
+
+}
+
+
+
+
+
+
+
+
+
+
