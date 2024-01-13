@@ -129,19 +129,36 @@ main{
     background-color: white;
     transform: scale(1.1);
 }
-.SignupBtn{
+.kurakani{
+    margin: 20px;
     position: absolute;
-    top: 10px;
-    right: 60px;
-    padding: 10px;
-    width: 100px;
-    border-radius: 30px;
-    background-color: black;
-    transition: 1s;
+    top: 1950px;
+    height: 150px;
+  }
+  .aboutUs{
+    position: absolute;
+    top: 1950px;
+    height: 200px;
+    right: 200px;
+    width: 10%;
+  }
+  .lastContent{
     color: white;
-}
-.SignupBtn:hover{
-    background-color: white;
-    color: black;
-    transform: scale(1.1);
-}
+    position: absolute;
+    top: 2160px;
+    justify-content: center;
+  }
+  .P{
+    position: absolute;
+    left: 500px;
+  }
+  .T{
+    position: absolute;
+    left: 700px;
+  }
+  .lastPage{
+    position: absolute;
+    height: 400px;
+    top: 1860px;
+    width: 100%;
+  }
