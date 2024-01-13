@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lgbtq-content-1 {
+  background-color: #ba069d;
+  height: 100px;
+  font-family: Inter;
+  color: #fff;
+  padding: 40px 46px 46px 46px;
+}
+
+.lgbtq-content-2 {
+  background-color: #7fe1e7;
+  height: 100px;
+}
+.lgbtq-content-3 {
+  height: 100px;
+}

@@ -114,4 +114,34 @@ main{
     right: 200px;
     color: #7751D1; 
 }
-
+.loginBtn{
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: black;
+    transition: 1s;
+    color: white;
+}
+.loginBtn:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+.SignupBtn{
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: black;
+    transition: 1s;
+    color: white;
+}
+.SignupBtn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
