@@ -10,7 +10,7 @@ body{
     gap: 30px;
 }
 .Section {
-    margin: 10px;
+    margin: 5px;
     color: #7751D1;
 }
 .Section:hover h2{
