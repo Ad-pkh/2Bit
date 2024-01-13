@@ -3,17 +3,15 @@
     padding: 0;
 }
 body{
-    background-color: #DFD9E2;
+  overflow-x: hidden;
 }
-
 .navContainer {
     display: flex;
     gap: 30px;
-    /* background-color: #af91f5; */
 }
-
 .Section {
     margin: 10px;
+    color: #7751D1;
 }
 .Section:hover h2{
     color: bisque;
@@ -41,6 +39,7 @@ li {
 }
 
 h2 {
+  font-size: 20px;
     position: relative;
     left: 100px;
     margin-bottom: 5px;
@@ -143,35 +142,225 @@ a{
     margin: 30px;
     position: absolute;
     top: 100px;
+    width: 40%;
+    font-size: large;
 }
 h1{
     color: #7751D1;
 }
 .secondContent{
-    margin: 30px;
+  position: relative;
+  left: 550px;
+  margin: 60px;
+  align-items: center;
 }
 .circleImage{
     position: absolute;
     right: 200px;
 }
 .thirdContent{
-    margin: 30px;
+  position: relative;
+  left: 550px;
+  margin: 60px;
+  align-items: center;
 }
 .mentalHealthHeading{
     position: absolute;
     right: 660px;
 }
 .thirdPara{
+  padding: 30px;
+  background-color: #B1D877;
     position: absolute;
-    right: 250px;
-    top: 1110px;
+    height: 270px;
+    width: 25%;
+    top: 95px;
+    left: -570px;
+    font-size: large;
+    transition: 1s;
 }
+.thirdPara:hover{
+  transform: scale(1.1);
+}
+
 .fourthContent{
-    margin: 30px;
-}
-.brainWithNewspaper{
-    height: 300px;
+  padding: 30px;
+    background-color: #F16A70;
     position: absolute;
-    top: 1400px;
-    right: 100px;
+    height: 270px;
+    width: 25%;
+    top: 715px;
+    left: 500px;
+    font-size: large;
+    transition: 1s;
+}
+.fourthContent:hover{
+  transform: scale(1.1);
+}
+.fifthContent{
+  padding: 30px;
+    background-color: #8CDCDA;
+    position: absolute;
+    height: 270px;
+    width: 25%;
+    top: 715px;
+    left: 1000px;
+    font-size: large;
+    transition: 1s;
+}
+.fifthContent:hover{
+  transform: scale(1.1);
+}
+.chatMain{
+  position: absolute;
+   top: 50px;
+  left: 100px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: black;
+  transition: 1s;
+  color: white;
+}
+.chatMain:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+.contentSpecial{
+  margin: 5px;
+}
+.girlSleepy{
+  position: absolute;
+  top: 1050px;
+  height: 600px;
+  width: 100%;
+}
+.ourMinds{
+  position: absolute;
+  top: 1659px;
+  color: #7751D1;
+  left: 500px;
+  margin: 10px;
+  padding: 20px;
+  width: 500px;
+}
+.ourLatest{
+  position: absolute;
+  left: 90px;
+  padding: 10px;
+}
+.backbone{
+  position: relative;
+  top: 1050px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 1s;  
+}
+.backbone:hover{
+  transform: scale(1.1);
+}
+.contentBackbone{
+  margin: 15px;
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  color: black;
+  width: 20%;
+  font-size: large;
+  border-radius: 10px;
+  transition: 1s;
+}
+.contentBackbone:hover{
+  transform: scale(1.1);
+}
+.newsContent{
+  display: flex;
+  border: 1px solid gray;
+  position: relative;
+  top: 800px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.sleepyStudent{
+  position: absolute;
+  left: 600px;
+  height: 200px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.sleepyStudent:hover{
+  transform: scale(1.1);
+}
+.studentContent{
+  position: absolute;
+  left: 600px;
+  top: 210px;
+  color: black;
+  width: 20%;
+}
+.sexAndSocialMedia{
+  position: absolute;
+  right: 90px;
+  height: 200px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.sexAndSocialMedia:hover{
+  transform: scale(1.1);
+}
+.sexAndSocialMediaContent{
+  position: absolute;
+  right: 30px;
+  top: 210px;
+  color: black;
+  width: 20%;
+}
+.earth{
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  top: 2150px;
+}
+.lastPage{
+  position: absolute;
+  height: 400px;
+  top: 2960px;
+  width: 100%;
+}
+.worldContent{
+  position: absolute;
+  height: 190px;
+  top: 2750px;
+  left: 400px;
+  align-items: center;
+}
+.kurakani{
+  margin: 20px;
+  position: absolute;
+  top: 3050px;
+  height: 150px;
+}
+.aboutUs{
+  position: absolute;
+  top: 3050px;
+  height: 200px;
+  right: 200px;
+  width: 10%;
+}
+.lastContent{
+  color: white;
+  position: absolute;
+  top: 3300px;
+  justify-content: center;
+}
+.P{
+  position: absolute;
+  left: 500px;
+}
+.T{
+  position: absolute;
+  left: 700px;
 }
